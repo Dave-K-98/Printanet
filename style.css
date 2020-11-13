@@ -147,7 +147,11 @@ footer {
     }
     .navbar ul {
         text-align: center;
-    }   
+    }
+    iframe {
+        width: 500px;
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -159,6 +163,10 @@ footer {
 
     .landing-text h1 {
         font-size: 300%;
+    }
+    iframe {
+        width: 330px;
+        height: 350px;
     }
 
 }

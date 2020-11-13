@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.co {
+    background-color: #f8f9fa !important;
+    height: 20px;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    font-size: 14px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3rem !important;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+img {
+    width: 250px;
+}
+
+#home {
+    background: url(img/landing.jpg) no-repeat center center fixed;
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+    color: #fff;
+}
+
+.landing-text h3 {
+    color: #fff;
+}
+
+.landing-text i {
+    font-size: 24px;
+}
+.about {
+    background-color: #f8f9fa;
+}
+.padding {
+    padding: 40px 0;
+}
+
+.padding img {
+    width: 100%;
+}
+
+.padding .title {
+    padding: 70px 0;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+}
+
+.card p {
+    color: gray;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: #000;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle {
+    background-color: #1190CB;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#fixed {
+    background: url(img/fixed.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: #1190CB;
+    padding: 5% 5% 10% 5%;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 991px) {
+    img {
+        width: 200px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0 !important;
+    }
+    .navbar ul {
+        text-align: center;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .co {
+        text-align: center;
+        padding-right: 0;
+        font-size: 10px;
+    }
+
+    .landing-text h1 {
+        font-size: 300%;
+    }
+
+}

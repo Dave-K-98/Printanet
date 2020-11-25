@@ -3,9 +3,15 @@
     <!-- Landing Page -->
     <div id="home">
         <div class="landing-text">
-            <h1>Üdvözöljük az oldalon!</h1>
-            <h3>Minőségin | Pontosan | Szakszerűen</h3>
-            <a href="#contact" class="btn btn-primary btn-lg">Vedd fel velünk a kapcsolatot!</a>
+            <h1>Printanet KKT.</h1>
+            <!-- <h3>Minőségin | Pontosan | Szakszerűen</h3> -->
+            <div class="animated-text">
+                <div class="line">Minőségin</div>
+                <div class="line">Pontosan</div>
+                <div class="line">Szakszerűen</div>
+                <div class="line">Megbízhatóan</div>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-lg">Elérhetőségeink</a>
             <!-- Egy facebook gomb - Vagy írj nekünk a facebook-on! -->
             <a href="https://www.fb.me/printanetkkt" target="_blank" class="btn btn-primary btn-lg"><i class="fab fa-facebook"></i></a>
             

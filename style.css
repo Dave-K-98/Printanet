@@ -52,6 +52,7 @@ img {
     font-size: 500%;
     font-weight: 700;
     color: #fff;
+    margin-bottom: 6.5rem;
 }
 
 .landing-text h3 {
@@ -61,9 +62,59 @@ img {
 .landing-text i {
     font-size: 24px;
 }
+
+.animated-text {
+    color: #0084ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ddd;
+    padding: 0 40px;
+    height: 60px;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.line {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.line:first-child {
+    animation: anim 12s infinite;
+}
+
+@keyframes anim {
+    0% {
+        margin-top: 0;
+    }
+    16% {
+        margin-top: -60px;
+    }
+    33% {
+        margin-top: -120px;
+    }
+    50% {
+        margin-top: -180px;
+    }
+    66% {
+        margin-top: -120px;
+    }
+    82% {
+        margin-top: -60px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
 .about {
     background-color: #f8f9fa;
 }
+
 .padding {
     padding: 40px 0;
 }
@@ -124,7 +175,9 @@ footer {
     color: #fff;
 }
 
-
+footer span {
+    font-size: 30px;
+}
 
 
 
@@ -167,6 +220,10 @@ footer {
     iframe {
         width: 330px;
         height: 350px;
+    }
+
+    .padding h1 {
+        font-size: 40px !important;
     }
 
 }

@@ -49,15 +49,15 @@
     <div class="collapse navbar-collapse" id="mainNavBar">
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="index.php">Kezdőlap
+            <a class="nav-link" href="sindex.php">Kezdőlap
             <span class="sr-only">(current)</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Cégről</a>
+            <a class="nav-link" href="#about">Cégről</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Referencia</a>
+            <a class="nav-link" href="#reference">Referencia</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#contact">Kapcsolat</a>

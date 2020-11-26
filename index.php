@@ -66,7 +66,7 @@
 
     <!-- About -->
 
-    <div class="padding about">
+    <div class="padding about" id="about"> 
         <div class="container">
             <h1 class="title text-center">A cégről</h1>
             <div class="row">
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Reference -->
-    <div class="padding">
+    <div class="padding" id="reference">
         <div class="container">
         <h1 class="title text-center">Referencia</h1>
             <div class="row">

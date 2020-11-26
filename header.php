@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Printenet Kkt.</title>
+    <title>Printanet Kkt.</title>
 
     <!-- Shortcut Icon -->
     <link rel="shortcut icon" href="img/shortcuticon.png" type="image/x-icon" />

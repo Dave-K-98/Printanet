@@ -28,10 +28,24 @@
 
     
     <!-- Map -->
-
+    <script>
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('.gotopbtn').css('display', 'block');
+            } else {
+                $('.gotopbtn').css('display', 'none');
+            }
+        })
+    </script>
+    
+    
 
 </head>
 <body>
+
+    <!-- Go To Top Button -->
+    <a href="#" class="gotopbtn" style="display: none;"><i class="fas fa-arrow-up"></i></a>
+
     <!-- Company Info -->
     <div class="co">
         <p>+36 20 506 6602 | info@printanet.hu | Adószám: 20819161-1-04</p>

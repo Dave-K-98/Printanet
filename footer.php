@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                    <h3 class="font-weight-light">Keress minket személyesen</h3>
+                    <h3 class="font-weight-light">Keressen minket személyesen</h3>
                     <p>5600. Békéscsaba, Pongrácz András utca 69.</p>
                 </div>
 
@@ -50,8 +50,15 @@
             </div>
 
         </div>
-    </div>
-</footer>
 
+        
+        
+
+    </div>
+    
+</footer>
+<div class="ended text-center">
+        <p>PRINTANET KKT. | 2020 | A weboldalt szerkesztette: <a href="#"> Kiss Dávid</a></p>
+    </div>
 </body>
 </html>

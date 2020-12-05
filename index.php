@@ -107,7 +107,9 @@
 
     <!-- Fixed Section -->
     <div id="fixed">
-
+        <div class="landing-text price">
+            <h2>Árajánlatot csak előzetes és részletes felmérés után tudunk készíteni!</h2> 
+        </div>    
     </div>
 
 <?php include ('footer.php') ?>

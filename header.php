@@ -61,9 +61,9 @@
         </button>
 
     <div class="collapse navbar-collapse" id="mainNavBar">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto text-center">
         <li class="nav-item">
-            <a class="nav-link" href="sindex.php">Kezdőlap
+            <a class="nav-link" href="index.php">Kezdőlap
             <span class="sr-only">(current)</span>
             </a>
         </li>

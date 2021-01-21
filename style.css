@@ -120,7 +120,7 @@ img {
     padding: 40px 0;
 }
 
-.padding img {
+.padding .about-img {
     width: 100%;
 }
 
@@ -216,6 +216,43 @@ footer span {
     opacity: 0.8;
 }
 
+.image-section {
+    padding: 60px 0;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-box {
+    max-width: 33.33%;
+    margin: auto;
+    cursor: pointer;
+}
+.image-box img {
+    width: 320px;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.image-box img:hover{
+    box-shadow: 1px 1px 5px 4px #888888;
+}
+
+
+
+/* Modal - Profile - Card */
+
 
 
 
@@ -236,6 +273,9 @@ footer span {
         width: 500px;
         height: 450px;
     }
+    .image-box {
+        max-width: 45%;
+    }   
 }
 
 @media screen and (max-width: 768px) {
@@ -275,4 +315,29 @@ footer span {
         font-size: 18px;
     }
 
+    .image-box {
+        max-width: 50%;
+    }
+
+    .image-box img:hover{
+        box-shadow: none;
+    }
+
+    .image-box {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-box {
+        max-width: 100%;
+    }
+
+    .image-box img:hover{
+        box-shadow: none;
+    }
+
+    .image-box {
+        margin-top: 10px;
+    }
 }

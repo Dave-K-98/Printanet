@@ -71,7 +71,7 @@
             <h1 class="title text-center">A cégről</h1>
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="img/about.jpg">
+                    <img class="about-img" src="img/about.jpg">
                 </div>
                 <div class="col-sm-6 text-center">
                     <h2>Ismerj meg minket!</h2>
@@ -85,21 +85,46 @@
     <!-- Reference -->
     <div class="padding" id="reference">
         <div class="container">
-        <h1 class="title text-center">Referencia</h1>
+
+            <h1 class="title text-center">Referencia</h1>
+
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4>Lorem ipsum dolor sit.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem sapiente enim nobis? Vitae velit, doloremque aperiam reprehenderit ipsam quis maxime!.</p>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <img src="img/reference.jpg" class="img-responsive">
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4>Lorem ipsum dolor sit.</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem sapiente enim nobis? Vitae velit, doloremque aperiam reprehenderit ipsam quis maxime!.</p>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <img src="img/reference.jpg" class="img-responsive">
+                <div class="image-section">
+                    <div class="inner-width">
+                        <div class="image-container">
+
+                            <!-- Box 1 -->
+                            <div class="image-box">
+                                <img src="img/reference.jpg" class="img-responsive">
+                            </div>
+
+                            <!-- Box 2 -->
+                            <div class="image-box">
+                                <img src="img/ref1.jpg" class="img-responsive">
+                            </div>
+
+                            <!-- Box 3 -->
+                            <div class="image-box">
+                                <img src="img/fixed.jpg" class="img-responsive">
+                            </div>
+
+                            <!-- Box 4 -->
+                            <div class="image-box">
+                                <img src="img/about.jpg" class="img-responsive">
+                            </div>
+
+                            <!-- Box 5 -->
+                            <div class="image-box">
+                                <img src="img/reference2.jpg" class="img-responsive">
+                            </div>
+
+                            <!-- Box 6 -->
+                            <div class="image-box">
+                                <img src="img/ref2.jpg" class="img-responsive">
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,3 +138,26 @@
     </div>
 
 <?php include ('footer.php') ?>
+
+<!-- <div class="column">
+                    <img src="img/reference.jpg" class="img-responsive">
+                    <img src="img/ref1.jpg" class="img-responsive">
+                    <img src="img/fixed.jpg" class="img-responsive">
+                    <img src="img/about.jpg" class="img-responsive">
+                    <img src="img/reference2.jpg" class="img-responsive">
+                    <img src="img/ref2.jpg" class="img-responsive">
+                </div> -->
+<!-- <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem sapiente enim nobis? Vitae velit, doloremque aperiam reprehenderit ipsam quis maxime!.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="img/reference.jpg" class="img-responsive">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem sapiente enim nobis? Vitae velit, doloremque aperiam reprehenderit ipsam quis maxime!.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="img/reference.jpg" class="img-responsive">
+                </div> -->

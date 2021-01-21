@@ -57,8 +57,46 @@
     </div>
     
 </footer>
-<div class="ended text-center">
-        <p>PRINTANET KKT. | 2020 | A weboldalt szerkesztette: <a href="#"> Kiss Dávid</a></p>
+
+    <div class="ended text-center">
+        <p>PRINTANET KKT. | 2020 | A weboldalt készítette: 
+        <button type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-info-circle" aria-hidden="true">Kiss Dávid </i>
+</button></p>
     </div>
+
+
+    <!-- Button trigger modal -->
+    
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    
+    </div>
+  </div>
+</div>
 </body>
 </html>
+
+<!-- 
+
+
+
+<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Kiss Dávid</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Mégsem</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+
+
+
+ -->

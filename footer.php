@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                    <h3 class="font-weight-light">Telefonon és Emailben is</h3>
+                    <h3 class="font-weight-light">Telefonon vagy Emailben is</h3>
                     <p>+36 20 506 6602 <br>
                       <a style="color: #fff" href="mailto:ordogzsolt75@gmail.com">ordogzsolt75@gmail.com</a></p>
                 </div>
@@ -60,8 +60,7 @@
 
     <div class="ended text-center">
         <p>PRINTANET KKT. | 2020 | A weboldalt készítette: 
-        <button type="button" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-info-circle" aria-hidden="true">Kiss Dávid </i>
-</button></p>
+        <button class="info-btn" type="button" data-toggle="modal" data-target="#exampleModal">Kiss Dávid</button></p>
     </div>
 
 
@@ -72,7 +71,23 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-    
+        <div class="profile-card">
+            <div class="card-header">
+                <div class="pic">
+                    <img src="profilkep.jpg" alt="">
+                </div>
+                <div class="name">Kiss Dávid</div>
+                <div class="desc">Webfejlesztő</div>
+                <div class="sm">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-github"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+                <a href="#" class="contact-btn">Kapcsolat felvétel</a>
+            </div>
+            
+        </div>
     </div>
   </div>
 </div>
